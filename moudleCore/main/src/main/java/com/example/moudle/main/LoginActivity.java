@@ -1,6 +1,7 @@
 package com.example.moudle.main;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -10,7 +11,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class LoginActivity extends AppCompatActivity {
-
+    private static final String TAG = "xixixueshane";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        Toast.makeText(this, "LoginActivity", Toast.LENGTH_SHORT).show();
-        System.out.println("nishisheiaaaaa");
+
+        Log.d(TAG, "onCreate: " + "loginActivity");
     }
 }
