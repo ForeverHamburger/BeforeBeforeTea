@@ -21,6 +21,9 @@ public class  HomeActivity extends AppCompatActivity {
             return insets;
         });
 
+        System.out.println("nihao?");
+        System.out.println("okfine");
         System.out.println("nishisheiaaaaa");
+
     }
 }
