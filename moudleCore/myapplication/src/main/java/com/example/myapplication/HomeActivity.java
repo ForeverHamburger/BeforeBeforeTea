@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,10 +21,7 @@ public class  HomeActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
-        System.out.println("nihao?");
-        System.out.println("okfine");
-        System.out.println("nishisheiaaaaa");
+        Log.d("HomeActivity", "this is HomeActivity");
 
     }
 }
