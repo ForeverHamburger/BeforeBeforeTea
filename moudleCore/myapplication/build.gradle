@@ -1,5 +1,14 @@
-plugins {
-    alias(libs.plugins.android.application)
+//plugins {
+//    alias(libs.plugins.android.application)
+//}
+
+def cfg = rootProject.ext
+
+//判断属于打包模式还是调试模式
+if (isModule.booleanValue()) {
+    apply plugin: 'com.android.application'
+} else {
+    apply plugin: 'com.android.library'
 }
 
 android {
