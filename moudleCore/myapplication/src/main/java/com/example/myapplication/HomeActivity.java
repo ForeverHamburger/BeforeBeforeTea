@@ -22,7 +22,7 @@ public class  HomeActivity extends AppCompatActivity {
             return insets;
         });
         Log.d("HomeActivity", "this is HomeActivity");
-        Log.d("HomeActivity", "this is HomeActivity111");
+        Log.d("HomeActivity", "this is test");
 
     }
 }
